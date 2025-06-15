@@ -1,6 +1,6 @@
 # Arome Perfume Shop - E-commerce Frontend
 
-![Project Sketch](images/pc.png)
+![images/pc.png]
 
 ---
 
