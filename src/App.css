@@ -1,0 +1,118 @@
+html{
+  &.active{
+    overflow: hidden;
+  }
+}
+*{
+  padding: 0;
+  margin:0;
+  text-decoration: none;
+  list-style: none;
+  outline: none;
+  box-sizing: border-box;
+}
+*::selection{
+  background: #5D3754;
+  color: #fff;
+}
+*::-webkit-scrollbar{
+  width:8px;
+}
+*::-webkit-scrollbar-thumb{
+  background:#5D3754;
+  border-radius:8px;
+}
+body{
+  font-family:  Inter, 'sans-serif';
+  &.active{
+    overflow: hidden;
+    /* text-decoration: line-through; */
+    
+  }
+}
+
+@media(max-width:568px){
+  .col-sm-6{
+    width:50%;
+  }
+  .col-sm-12{
+    width:100%;
+  }
+}
+
+
+/* 
+.create_form{
+  .product_form{
+      .product_form_data{
+          form{
+              .btn_submit{
+                          display: 'flex';
+                          justify-content: 'center'; 
+                          align-items: 'center';
+                          width: '100%';
+                          background: '#4a4ac8';
+                          color: '#fff';
+                          border: 'none';
+                          padding: '10px';
+                          border-radius: '10px';
+                          cursor: 'pointer';
+                          transition: 'all 0.3s ease-in-out';
+                  }
+                  .loader {
+                      width: 38px;
+                      height: 38px;
+                      border-radius: 50%;
+                      display: inline-block;
+                      position: relative;
+                      border: 3px solid;
+                      border-color: #FFF #FFF transparent transparent;
+                      box-sizing: border-box;
+                      animation: rotation 1s linear infinite;
+                  }
+                  .loader::after,
+                  .loader::before {
+                      content: '';  
+                      box-sizing: border-box;
+                      position: absolute;
+                      left: 0;
+                      right: 0;
+                      top: 0;
+                      bottom: 0;
+                      margin: auto;
+                      border: 3px solid;
+                      border-color: transparent transparent #4a4ac8 #4a4ac8;
+                      width: 40px;
+                      height: 40px;
+                      border-radius: 50%;
+                      box-sizing: border-box;
+                      animation: rotationBack 0.5s linear infinite;
+                      transform-origin: center center;
+                  }
+                  .loader::before {
+                      width: 32px;
+                      height: 32px;
+                      border-color: #FFF #FFF transparent transparent;
+                      animation: rotation 1.5s linear infinite;
+                  }
+          
+                  @keyframes rotation {
+                      0% {
+                          transform: rotate(0deg);
+                      }
+                      100% {
+                          transform: rotate(360deg);
+                      }
+                  } 
+                  @keyframes rotationBack {
+                      0% {
+                          transform: rotate(0deg);
+                      }
+                      100% {
+                          transform: rotate(-360deg);
+                      }
+                  }
+              }
+          }    
+    }
+} */
