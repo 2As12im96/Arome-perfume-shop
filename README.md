@@ -74,9 +74,8 @@ Make sure you have the following installed on your machine:
 
 1.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/YOUR_USERNAME/arome-perfume-shop-frontend.git](https://github.com/YOUR_USERNAME/arome-perfume-shop-frontend.git)
+    git clone [https://github.com/YOUR_USERNAME/arome-perfume-shop-frontend.git](https://github.com/2As12im96/Arome-perfume-shop/tree/main)
     ```
-    (Replace `YOUR_USERNAME/arome-perfume-shop-frontend.git` with your actual repository URL)
 
 2.  **Navigate into the project directory:**
     ```bash
