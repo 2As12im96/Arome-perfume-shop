@@ -108,7 +108,7 @@ function navbar_logic() {
     const user = useSelector(state => state.auth);
     //Checkout
     const [isLoading, setIsLoading] = useState(false);
-    const checkout = () => {
+  const checkout = () => {
         setIsLoading(true);
         let currentUserId = user ? user._id : null;
         if (!currentUserId) {
@@ -129,7 +129,7 @@ function navbar_logic() {
             return;
         }
 
-        axios.post(`${Url}/stripe/create-checkout-session`, {
+        axios.post(`${Url}/checkout-session`, { 
             carts: carts.cartItems,
             userId: currentUserId
         })
