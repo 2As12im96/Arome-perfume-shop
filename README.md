@@ -25,7 +25,7 @@ Arome Perfume Shop offers a rich set of features designed to enhance the online 
 * **📱 Responsive Design:** A fully responsive user interface ensuring an optimal viewing experience across all devices (desktops, tablets, mobile phones).
 * **💳 Stripe Payment Integration:** Secure and seamless payment processing powered by Stripe.
 * **🔍 Product Detail Pages:** Dedicated pages for each product, showcasing detailed descriptions, images, and user reviews.
-* **📊 Admin Dashboard:** A powerful administrative interface for managing the e-commerce store:
+* **📊 Admin Dashboard:** A powerful administrative interface for managing the e-commerce store.You can access the control panel from here: [Admin Dashboard](https://arome-perfume-shop.vercel.app/Overview)
     * **Overview:** A glance at key store metrics.
     * **Products Management:** Full CRUD (Create, Read, Update, Delete) operations for managing product inventory.
     * **Orders Management:** View order details and update order statuses.
