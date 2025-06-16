@@ -485,7 +485,6 @@ width:30%;
             }
         }
         .parent_found_details{
-            bottom:10%;
             z-index:1;
             background:#fff;
             h4{
