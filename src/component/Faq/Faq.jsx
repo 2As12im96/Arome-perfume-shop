@@ -5,6 +5,7 @@ import { Link } from 'react-router-dom'
 import Accordion from './Accordion/Accordion'
 import Footer from '../footer/footer'
 import AccordionTwo from './Accordion/AccordionTwo'
+// import Testimonail_logic from './testimonial/Testimonial'
 import Testimonail_logic from './testimonial/testimonial'
 
 

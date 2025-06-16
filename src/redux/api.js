@@ -1,4 +1,4 @@
-export const Url = 'https://arome-api.vercel.app/api';
+export const Url = 'https://arome-perfume-shop.vercel.app/api';
 
 export const setHeaders = () => {
     let authToken = localStorage.getItem('token'); 
