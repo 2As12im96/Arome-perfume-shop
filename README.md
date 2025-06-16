@@ -1,6 +1,6 @@
 # Arome Perfume Shop - E-commerce Frontend
 
-![Project Sketch](images/pc.png)
+![Project Sketch](public/images/pc.png)
 
 ---
 
@@ -74,10 +74,8 @@ Make sure you have the following installed on your machine:
 
 1.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/YOUR_USERNAME/arome-perfume-shop-frontend.git](https://github.com/YOUR_USERNAME/arome-perfume-shop-frontend.git)
+    https://github.com/2As12im96/Arome-perfume-shop/tree/main
     ```
-    (Replace `YOUR_USERNAME/arome-perfume-shop-frontend.git` with your actual repository URL)
-
 2.  **Navigate into the project directory:**
     ```bash
     cd arome-perfume-shop-frontend
@@ -94,7 +92,7 @@ Make sure you have the following installed on your machine:
     Create a file named `.env` in the root of the project directory and add your environment variables.
     ```
     # Example .env content
-    VITE_API_BASE_URL=http://localhost:5000/api  # Your backend API URL
+    VITE_API_BASE_URL=https://arome-api.vercel.app/api  # Your backend API URL
     VITE_STRIPE_PUBLISHABLE_KEY=pk_test_YOUR_STRIPE_PUBLISHABLE_KEY # Your Stripe Public Key
     VITE_FIREBASE_API_KEY=YOUR_FIREBASE_API_KEY
     VITE_FIREBASE_AUTH_DOMAIN=YOUR_FIREBASE_AUTH_DOMAIN

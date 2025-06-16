@@ -107,4 +107,5 @@ function Testimonail_logic() {
   );
 }
 
-export default Testimonail_logic;
+export default Testimonail_logic
+
