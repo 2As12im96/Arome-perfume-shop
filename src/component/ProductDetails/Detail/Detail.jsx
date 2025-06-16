@@ -66,8 +66,8 @@ function DetailParent() {
             return;
         }
 
-        axios.post(`${Url}/stripe/create-checkout-session`, {
-            carts: cartData.cartItems,
+        axios.post(`${Url}/checkout-session`, { 
+            carts: carts.cartItems,
             userId: currentUserId
         })
         .then((res) => {
