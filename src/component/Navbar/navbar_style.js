@@ -440,7 +440,7 @@ width:30%;
 }
     .parent_items_cards{
         width:100%;
-        height:50vh;
+        height:30vh;
         overflow:auto;
     }
     .parent_empty{
