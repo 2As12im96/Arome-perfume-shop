@@ -78,7 +78,7 @@ function useCartLogic() {
 
    //Checkout
     const [isLoading, setIsLoading] = useState(false);
-const checkout = () => {
+    const checkout = () => {
         setIsLoading(true);
         let currentUserId = user ? user._id : null;
         if (!currentUserId) {
@@ -99,7 +99,7 @@ const checkout = () => {
             return;
         }
 
-        axios.post(`${Url}/checkout-session`, {
+        axios.post(`${Url}/stripe/create-checkout-session`, {
             carts: carts.cartItems,
             userId: currentUserId
         })
