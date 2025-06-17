@@ -41,6 +41,7 @@ export const NavAdminContainer = styled.nav`
             .links{
                 li{
                     margin:0;
+                    list-style:none;
                     &.menuIcon , &.user{
                         display:block;
                         svg{
