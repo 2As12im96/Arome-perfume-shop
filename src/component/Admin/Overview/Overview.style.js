@@ -60,5 +60,10 @@ export const OverviewContainer = styled.section`
             background: #2B3D56;
         }  
     }
+    @media(max-width:568px){
+        .parent_icons {
+            flex-wrap:wrap;
+        }
+    }
 
 `
