@@ -175,7 +175,10 @@ function RegisterAdmin() {
                                     </>)
                                 }
                             </form>
-                            <Link to='/Admin-auth'>sign up</Link>
+                            <span className="d-block auth-link">
+                                <span>Already have an account?</span>
+                                <Link to='/Admin-register'>sign in</Link>
+                            </span>
                         </div>
                     </div>
                 </div>

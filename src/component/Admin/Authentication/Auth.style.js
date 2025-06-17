@@ -101,8 +101,19 @@ export  const AuthContainer = styled.div`
                 }
             }
         }
-        a{
-            color:#fff;
+        .auth-link{
+            font-size:1.3rem;
+            font-weight:500;
+            span{
+                color:rgba(28,28,28,.7);
+            }
+            a{
+                color:#fff;
+                text-decoration:none;
+                &:hover{
+                    text-decoration:underline;
+                }
+            }
         }
     }
     @media (max-width: 768px) {
