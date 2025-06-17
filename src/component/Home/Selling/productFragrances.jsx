@@ -99,7 +99,7 @@ function ProductFragrances() {
     const renderProductCard = (item) => {
         const isFavorite = carts.favoriteItems.some((favItem) => favItem._id === item._id);
         return (
-            <div key={item._id} className="col-lg-3 col-md-3 col-sm-6">
+            <div key={item._id} className="col-lg-3 col-md-3">
                 <div id={item._id} className="card position-relative">
                     <span className='new position-absolute text-center'>
                         {item.type === 'new' ? 'New' : ''}

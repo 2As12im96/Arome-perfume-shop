@@ -46,7 +46,7 @@ function Wishlist() {
                             {carts.favoriteItems && carts.favoriteItems.length > 0 ? 
                                 (
                                     carts.favoriteItems.map((item) => (
-                                        <div key={item._id} id={item._id} className="col-lg-3 col-md-4 col-sm-6">
+                                        <div key={item._id} id={item._id} className="col-lg-3 col-md-4">
                                             <div className="card position-relative">
                                                 <span className='new position-absolute text-center'>
                                                     {item.type === 'new' ? 'New' : ''}
