@@ -101,6 +101,9 @@ export  const AuthContainer = styled.div`
                 }
             }
         }
+        a{
+            color:#fff;
+        }
     }
     @media (max-width: 768px) {
         font-size: 1.5rem;

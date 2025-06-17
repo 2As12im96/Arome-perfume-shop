@@ -4,7 +4,7 @@ import { useForm } from 'react-hook-form';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEye, faEyeSlash } from '@fortawesome/free-solid-svg-icons';
 import { useDispatch, useSelector } from 'react-redux';
-import { useNavigate } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import { registerAdminUser } from '../../../redux/adminAuth';
 
 function RegisterAdmin() {
@@ -175,6 +175,7 @@ function RegisterAdmin() {
                                     </>)
                                 }
                             </form>
+                            <Link to='/Admin-auth'>sign up</Link>
                         </div>
                     </div>
                 </div>

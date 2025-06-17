@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { useForm } from "react-hook-form";
 import { useDispatch, useSelector } from "react-redux";
-import { useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { AuthContainer } from "./Auth.style";
 import { loginAdminUser } from "../../../redux/adminAuth";
 import { toast } from "react-toastify";
@@ -110,6 +110,7 @@ function LoginAdmin() {
                                     </>)
                                 }
                             </form>
+                            <Link to='/Admin-register'>sign up</Link>
                         </div>
                     </div>
                 </div>
