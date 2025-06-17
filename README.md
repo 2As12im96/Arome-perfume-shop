@@ -1,4 +1,4 @@
-# Arome Perfume Shop 
+# Arome Perfume Shop
 ![Project Sketch](public/images/pc.png)
 
 ---
@@ -29,6 +29,21 @@ Arome Perfume Shop offers a rich set of features designed to enhance the online 
     * **Products Management:** Full CRUD (Create, Read, Update, Delete) operations for managing product inventory.
     * **Orders Management:** View order details and update order statuses.
     * **Users Management:** Full CRUD (Create, Read, Update, Delete) operations for managing user accounts.
+
+---
+
+## 💡 Architectural Insights & Best Practices
+
+To ensure a robust, maintainable, and scalable application, several architectural decisions and best practices were implemented:
+
+* **Centralized Data & State Management:** For efficient **data fetching** and **state management**, **Redux Toolkit** was leveraged. This allowed for predictable state updates across the application, handling complex scenarios such as:
+    * **User authentication** and **Google Sign-In integration.**
+    * **Shopping cart** and **wishlist management.**
+    * And other critical application-wide operations.
+* **Clean Code & Maintainability with Custom Hooks:** A strong emphasis was placed on writing **clean code** and ensuring **maintainability**. This was significantly achieved through the extensive use of **Custom Hooks** in React. Custom Hooks helped encapsulate and reuse complex logic, leading to:
+    * More readable and organized components.
+    * Easier testing and debugging.
+    * Reduced code duplication.
 
 ---
 
@@ -73,9 +88,8 @@ Make sure you have the following installed on your machine:
 
 1.  **Clone the repository:**
     ```bash
-    https://github.com/2As12im96/Arome-perfume-shop/tree/main
+    [https://github.com/2As12im96/Arome-perfume-shop/tree/main](https://github.com/2As12im96/Arome-perfume-shop/tree/main)
     ```
-
 
 2.  **Navigate into the project directory:**
     ```bash
@@ -93,7 +107,7 @@ Make sure you have the following installed on your machine:
     Create a file named `.env` in the root of the project directory and add your environment variables.
     ```
     # Example .env content
-    VITE_API_BASE_URL=https://arome-api.vercel.app/api  # Your backend API URL
+    VITE_API_BASE_URL=[https://arome-api.vercel.app/api](https://arome-api.vercel.app/api)   # Your backend API URL
     VITE_STRIPE_PUBLISHABLE_KEY=pk_test_YOUR_STRIPE_PUBLISHABLE_KEY # Your Stripe Public Key
     VITE_FIREBASE_API_KEY=YOUR_FIREBASE_API_KEY
     VITE_FIREBASE_AUTH_DOMAIN=YOUR_FIREBASE_AUTH_DOMAIN
@@ -124,5 +138,3 @@ Contributions are welcome! Please feel free to open issues or submit pull reques
 ## 📄 License
 
 This project is open source and available under the [MIT License](LICENSE).
-
----
