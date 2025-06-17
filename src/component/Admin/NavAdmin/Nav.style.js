@@ -7,6 +7,7 @@ export const NavAdminContainer = styled.nav`
     .parent{
         .links{
             li{
+                margin-left:1.5rem ;
                 cursor:pointer;
                 font-size:1.2rem;
                 color:rgb(28,28,28);
@@ -39,6 +40,7 @@ export const NavAdminContainer = styled.nav`
         .parent{
             .links{
                 li{
+                    margin:0;
                     &.menuIcon , &.user{
                         display:block;
                         svg{

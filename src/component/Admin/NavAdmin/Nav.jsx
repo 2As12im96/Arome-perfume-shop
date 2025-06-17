@@ -60,17 +60,17 @@ function NavAdmin({isActive , setIsActive}) {
                 <ul className="links d-flex align-items-center p-0 m-0">
                     {adminUserNameData ? 
                         (<>
-                            <li className='admin pt-4 pb-4 ms-4 rounded-circle d-flex justify-content-center align-items-center'>
+                            <li className='admin pt-4 pb-4  rounded-circle d-flex justify-content-center align-items-center'>
                                 <img src="/images/user.png" alt="" />
                                 <span>{adminUserName}</span>
                             </li>
-                            <li className='pt-4 pb-4 ms-4'>
+                            <li className='pt-4 pb-4 '>
                                 <button className='btn' onClick={()=> handleLogout()}>Logout</button>
                             </li>
                         </>):
                         (<>
-                            <li className='pageLinks pt-4 pb-4 ms-4'><Link to='/Admin-auth'>sign in</Link></li>
-                            <li className='pageLinks pt-4 pb-4 ms-4'><Link to='/Admin-register'>sign out</Link></li>
+                            <li className='pageLinks pt-4 pb-4 '><Link to='/Admin-auth'>sign in</Link></li>
+                            <li className='pageLinks pt-4 pb-4 '><Link to='/Admin-register'>sign out</Link></li>
                         </>)
                     }
                     
